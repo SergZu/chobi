@@ -1,0 +1,1 @@
+const e=document.querySelector(".openBtn"),s=document.querySelector(".js-modal"),t=document.querySelector(".js-lkAuthed");e?.addEventListener("click",(e=>{s?.classList.add("show"),t?.classList.add("show")}));document.querySelectorAll(".js-closeBtn")?.forEach((e=>{e.addEventListener("click",(()=>{s?.classList.remove("show"),t?.classList.remove("show")}))}));
